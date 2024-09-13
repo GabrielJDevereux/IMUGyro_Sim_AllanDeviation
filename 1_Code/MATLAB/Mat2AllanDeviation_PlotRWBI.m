@@ -19,7 +19,6 @@ m = unique(m);
 % Calculate the time interval
 tau = m * t0;
 
-% Allocate array 
 avar = zeros(numel(m), 1);
 
 % Calculate Allan variance for different values of m
